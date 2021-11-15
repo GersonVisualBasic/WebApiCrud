@@ -9,7 +9,7 @@ namespace WebApiMinimal.Contexto
         public Contexto(DbContextOptions<Contexto> options)
                 : base(options) => Database.EnsureCreated();
 
-        public DbSet<Clientes> Cliente { get; set; }
+        public DbSet<Clientes> cliente { get; set; }
 
     }
 }
